@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_stat_items",
+  "info": {
+    "displayName": "stat-item"
+  },
+  "options": {},
+  "attributes": {
+    "prefix": {
+      "type": "string"
+    },
+    "suffex": {
+      "type": "string"
+    },
+    "value": {
+      "type": "decimal",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

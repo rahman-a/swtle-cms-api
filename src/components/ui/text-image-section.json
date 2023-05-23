@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_ui_text_image_sections",
+  "info": {
+    "displayName": "text-image-section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "sectionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    },
+    "sectionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.list-item"
+    }
+  }
+}

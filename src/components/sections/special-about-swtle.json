@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_special_about_swtles",
+  "info": {
+    "displayName": "special about swtle"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.special-item",
+      "required": true
+    },
+    "section_title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

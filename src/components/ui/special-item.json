@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_special_items",
+  "info": {
+    "displayName": "special-item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

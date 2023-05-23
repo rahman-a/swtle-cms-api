@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_sections_headers",
+  "info": {
+    "displayName": "Hero Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string",
+      "default": "swtle"
+    },
+    "subheader": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.button"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.stat-item"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.partner"
+    }
+  }
+}

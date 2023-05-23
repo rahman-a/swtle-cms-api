@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_take_actions",
+  "info": {
+    "displayName": "take-action",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    },
+    "isContactUs": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
