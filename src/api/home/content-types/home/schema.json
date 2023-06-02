@@ -37,19 +37,6 @@
       },
       "component": "ui.take-action"
     },
-    "howITWorks": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "aboutCompany": {
       "type": "component",
       "repeatable": false,
@@ -104,7 +91,7 @@
       },
       "component": "sections.articles"
     },
-    "meta": {
+    "howITWorks": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -112,8 +99,17 @@
           "localized": true
         }
       },
-      "component": "meta.meta-data",
-      "required": true
+      "component": "ui.images"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
     }
   }
 }

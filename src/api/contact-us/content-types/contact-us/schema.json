@@ -75,7 +75,7 @@
       },
       "type": "string"
     },
-    "meta": {
+    "metadata": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -83,8 +83,7 @@
           "localized": true
         }
       },
-      "component": "meta.meta-data",
-      "required": true
+      "component": "shared.seo"
     }
   }
 }

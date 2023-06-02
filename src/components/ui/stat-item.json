@@ -1,14 +1,15 @@
 {
   "collectionName": "components_ui_stat_items",
   "info": {
-    "displayName": "stat-item"
+    "displayName": "stat-item",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "prefix": {
       "type": "string"
     },
-    "suffex": {
+    "suffix": {
       "type": "string"
     },
     "value": {
@@ -18,6 +19,15 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "currency": {
+      "type": "enumeration",
+      "enum": [
+        "AED",
+        "USD",
+        "EURO"
+      ],
+      "default": "AED"
     }
   }
 }
