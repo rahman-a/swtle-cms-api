@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "teams",
+  "collectionName": "services",
   "info": {
-    "singularName": "team",
-    "pluralName": "teams",
-    "displayName": "team",
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
     "description": ""
   },
   "options": {
@@ -25,32 +25,18 @@
       "type": "string",
       "required": true
     },
-    "biography": {
+    "description": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "richtext",
+      "component": "ui.text-image-section",
       "required": true
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "socials": {
+    "Benefits": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -58,32 +44,31 @@
           "localized": true
         }
       },
-      "component": "ui.social"
+      "component": "ui.list-item",
+      "required": true
     },
-    "CV": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "files"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "Gender": {
+    "action": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "enumeration",
-      "enum": [
-        "Male",
-        "Female"
-      ],
+      "component": "ui.take-action"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    },
+    "slug": {
+      "type": "string",
       "required": true
     }
   }

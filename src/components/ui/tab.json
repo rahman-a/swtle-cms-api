@@ -9,6 +9,12 @@
       "type": "string",
       "required": true
     },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
     "content": {
       "type": "component",
       "repeatable": false,

@@ -1,14 +1,15 @@
 {
   "collectionName": "components_ui_socials",
   "info": {
-    "displayName": "social"
+    "displayName": "social",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "link": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "platform": {
       "type": "enumeration",
@@ -21,12 +22,12 @@
       "required": true
     },
     "icon": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
