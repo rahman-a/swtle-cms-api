@@ -1,18 +1,11 @@
 {
   "collectionName": "components_sections_special_about_swtles",
   "info": {
-    "displayName": "special about swtle"
+    "displayName": "special about swtle",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "image": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
-    },
     "items": {
       "type": "component",
       "repeatable": true,
@@ -22,6 +15,9 @@
     "section_title": {
       "type": "string",
       "required": true
+    },
+    "image": {
+      "type": "string"
     }
   }
 }

@@ -1,19 +1,16 @@
 {
   "collectionName": "components_ui_partners",
   "info": {
-    "displayName": "partner"
+    "displayName": "partner",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "logo": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
+    "name": {
+      "type": "string",
       "required": true
     },
-    "name": {
+    "logo": {
       "type": "string",
       "required": true
     }

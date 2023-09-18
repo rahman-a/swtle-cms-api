@@ -34,22 +34,6 @@
       "type": "richtext",
       "required": true
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "socials": {
       "type": "component",
       "repeatable": true,
@@ -85,6 +69,14 @@
         "Female"
       ],
       "required": true
+    },
+    "image": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

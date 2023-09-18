@@ -1,31 +1,19 @@
 {
   "collectionName": "components_ui_images",
   "info": {
-    "displayName": "images"
+    "displayName": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {
+    "default": {
+      "type": "string"
+    },
     "small": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
+      "type": "string"
     },
     "medium": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "default": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      "type": "string"
     }
   }
 }
