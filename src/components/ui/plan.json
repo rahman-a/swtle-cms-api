@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_ui_plans",
+  "info": {
+    "displayName": "plan",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "required": true,
+      "default": "free"
+    },
+    "period": {
+      "type": "enumeration",
+      "enum": [
+        "forever",
+        "month",
+        "year",
+        "للأبد",
+        "شهرياً",
+        "سنوياً"
+      ],
+      "default": "forever",
+      "required": true
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.plan-feature",
+      "required": true
+    }
+  }
+}

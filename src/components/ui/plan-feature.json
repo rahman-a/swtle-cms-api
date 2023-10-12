@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_ui_plan_features",
+  "info": {
+    "displayName": "plan-feature",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
