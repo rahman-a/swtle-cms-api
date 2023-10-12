@@ -33,6 +33,10 @@
       "repeatable": true,
       "component": "ui.plan-feature",
       "required": true
+    },
+    "path": {
+      "type": "string",
+      "required": true
     }
   }
 }
