@@ -18,15 +18,12 @@
     "period": {
       "type": "enumeration",
       "enum": [
-        "forever",
         "month",
         "year",
-        "للأبد",
         "شهرياً",
         "سنوياً"
       ],
-      "default": "forever",
-      "required": true
+      "required": false
     },
     "features": {
       "type": "component",
